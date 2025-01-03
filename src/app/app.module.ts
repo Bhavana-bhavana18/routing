@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ElementsModule } from './elements/elements.module';
 import { CollectionModule } from './collection/collection.module';
+import { ViewsRoutingModule } from './views/views-routing.module';
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule, AppRoutingModule, ElementsModule, CollectionModule],
+  imports: [CommonModule, ElementsModule, CollectionModule,ViewsRoutingModule],
   providers: [],
   exports: [],
 })
